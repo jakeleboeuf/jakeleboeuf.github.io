@@ -11,7 +11,7 @@ var autoprefixer = require('gulp-autoprefixer'),
     gulp = require('gulp');
 
 // Task for building blog when something changed:
-gulp.task('build', shell.task(['jekyll build --watch']));
+gulp.task('build', shell.task(['jekyll build --watch --baseurl ""']));
 
 
 gulp.task('watch', function(){
