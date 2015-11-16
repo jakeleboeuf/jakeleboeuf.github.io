@@ -1,0 +1,76 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+@font-face {
+    font-family:'Input-Italic';
+    src: url('/assets/fonts/Input-Italic_gdi.eot');
+    src: url('/assets/fonts/Input-Italic_gdi.eot?#iefix') format('embedded-opentype'),
+	url('/assets/fonts/Input-Italic_gdi.woff') format('woff'),
+	url('/assets/fonts/Input-Italic_gdi.ttf') format('truetype'),
+	url('/assets/fonts/Input-Italic_gdi.svg#Input-Italic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+    font-stretch: semi-condensed;
+    unicode-range: U+000D-E011;
+}
+
+@font-face {
+    font-family:'Input-Regular';
+    src: url('/assets/fonts/Input-Regular_gdi.eot');
+    src: url('/assets/fonts/Input-Regular_gdi.eot?#iefix') format('embedded-opentype'),
+	url('/assets/fonts/Input-Regular_gdi.woff') format('woff'),
+	url('/assets/fonts/Input-Regular_gdi.ttf') format('truetype'),
+	url('/assets/fonts/Input-Regular_gdi.svg#Input-Regular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: semi-condensed;
+    unicode-range: U+000D-E011;
+}
+
+
+// Our variables
+$base-font-family: "Input-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 400;
+$small-font-size:  $base-font-size * 0.875;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+// Width of the content area
+$content-width:    1200px;
+
+$on-palm:          600px;
+$on-laptop:        1200px;
+
+
+// Use media queries like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+    "base",
+    "layout",
+    "syntax-highlighting"
+;
