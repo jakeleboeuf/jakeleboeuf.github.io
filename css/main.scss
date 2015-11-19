@@ -6,11 +6,11 @@
 
 @font-face {
     font-family:'Input-Italic';
-    src: url('/assets/fonts/Input-Italic_gdi.eot');
-    src: url('/assets/fonts/Input-Italic_gdi.eot?#iefix') format('embedded-opentype'),
-	url('/assets/fonts/Input-Italic_gdi.woff') format('woff'),
-	url('/assets/fonts/Input-Italic_gdi.ttf') format('truetype'),
-	url('/assets/fonts/Input-Italic_gdi.svg#Input-Italic') format('svg');
+    src: url({{ '/assets/fonts/Input-Italic_gdi.eot' | prepend: site.baseurl }});
+    src: url({{ '/assets/fonts/Input-Italic_gdi.eot?#iefix' | prepend: site.baseurl }}) format('embedded-opentype'),
+	url({{ '/assets/fonts/Input-Italic_gdi.woff' | prepend: site.baseurl }}) format('woff'),
+	url({{ '/assets/fonts/Input-Italic_gdi.ttf' | prepend: site.baseurl }}) format('truetype'),
+	url({{ '/assets/fonts/Input-Italic_gdi.svg#Input-Italic' | prepend: site.baseurl }}) format('svg');
     font-weight: 400;
     font-style: italic;
     font-stretch: semi-condensed;
@@ -19,11 +19,11 @@
 
 @font-face {
     font-family:'Input-Regular';
-    src: url('/assets/fonts/Input-Regular_gdi.eot');
-    src: url('/assets/fonts/Input-Regular_gdi.eot?#iefix') format('embedded-opentype'),
-	url('/assets/fonts/Input-Regular_gdi.woff') format('woff'),
-	url('/assets/fonts/Input-Regular_gdi.ttf') format('truetype'),
-	url('/assets/fonts/Input-Regular_gdi.svg#Input-Regular') format('svg');
+    src: url({{ '/assets/fonts/Input-Regular_gdi.eot' | prepend: site.baseurl }});
+    src: url({{ '/assets/fonts/Input-Regular_gdi.eot?#iefix' | prepend: site.baseurl }}) format('embedded-opentype'),
+	url({{ '/assets/fonts/Input-Regular_gdi.woff' | prepend: site.baseurl }}) format('woff'),
+	url({{ '/assets/fonts/Input-Regular_gdi.ttf' | prepend: site.baseurl }}) format('truetype'),
+	url({{ '/assets/fonts/Input-Regular_gdi.svg#Input-Regular' | prepend: site.baseurl }}) format('svg');
     font-weight: 400;
     font-style: normal;
     font-stretch: semi-condensed;
