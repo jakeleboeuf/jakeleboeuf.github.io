@@ -1,7 +1,7 @@
 {
-  "name": "jklb-portfolio",
+  "name": "jklb-about",
   "version": "1.0.0",
-  "description": "My portfolio site",
+  "description": "About me",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/jakeleboeuf/portfolio.git"
+    "url": "git+ssh://git@github.com/jakeleboeuf/about.git"
   },
   "author": "Jake LeBoeuf",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jakeleboeuf/portfolio/issues"
+    "url": "https://github.com/jakeleboeuf/about/issues"
   },
-  "homepage": "https://github.com/jakeleboeuf/portfolio#readme",
+  "homepage": "https://github.com/jakeleboeuf/about#readme",
   "devDependencies": {
     "browser-sync": "^2.10.0",
     "gulp": "^3.9.0",

@@ -27,6 +27,12 @@ a {
     text-decoration: none;
     color: darken(#ffb400, 10%);
   }
+  &.back {
+    color: rgba(0,0,0,0.3);
+    &:hover {
+      color: rgba(0,0,0,0.7);
+    }
+  }
 }
 
 
@@ -272,3 +278,4 @@ a {
     }
   }
 }
+

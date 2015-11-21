@@ -10,8 +10,8 @@ title: Jake LeBoeuf
 email: dev@jakeleboeuf.com
 description: > # this means to ignore newlines until "baseurl:"
   Thanks for reading :)  
-baseurl: "/portfolio" # the subpath of your site, e.g. /blog
-url: "http://jakeleboeuf.com" # the base hostname & protocol for your site
+baseurl: "/about" # the subpath of your site, e.g. /blog
+url: "http://jakeleboeuf.github.io" # the base hostname & protocol for your site
 twitter_username: jakeleboeuf
 github_username:  jakeleboeuf
 
