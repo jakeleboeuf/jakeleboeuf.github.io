@@ -5,7 +5,6 @@ var Console = console,
     app = {},
     bio = document.querySelector('.bio') || false;
 
-
 // Functions
 app.setHeight = function() {
   if(bio.offsetHeight > (window.innerHeight - 20)) {
@@ -17,9 +16,10 @@ app.setHeight = function() {
   }
 }
 
+if(bio) {
+  // Actions
+  window.addEventListener("resize", app.setHeight);
 
-// Actions
-window.addEventListener("resize", app.setHeight);
-
-// Inits
-app.setHeight();
+  // Inits
+  app.setHeight();
+}
