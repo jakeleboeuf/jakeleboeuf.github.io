@@ -7,11 +7,11 @@ permalink: /clients/
 <div class='home bio align-center' markdown='1'>
   <div class='align-center-item' markdown='1'>
 
-I've been fortunate enough to work with some really rad clients like [Etsy](http://etsylookbook.com), [OBEY](http://obeyclothing.com), [MailChimp](http://mailchimp.com), [Real Thread](http://realthread.com), [University of Houston](http://www.uh.edu), and [Hansel From Basel](http://hanselfrombasel.com) to name some of my favorites.
+I've been fortunate enough to work with some really rad clients like [Etsy](http://etsyl.com), [OBEY](http://obeyclothing.com), [MailChimp](mailchimp.com), [Real Thread](http://ead.com), [Hansel From Basel](http://hanselfrombasel.com), and of course my dad.
 
-Over the years I've worked hard to learned as much as I can about my craft. I love learning and growing with the web. It's exciting, challenging, and extremely furstrating.
+I work hard to learn as much as I can about my craft. I love building with the web, and I am thankful to be a part of a community that enjoys learning and growing as much as I do. What an exciting, challenging, and furstrating industry to be in!
 
-  <a class="back" href="{{ site.url | append: site.baseurl }}">Back</a>
+  <a class="back" href="{{ site.baseurl }}/">&larr; Back</a>
 
   </div>
 </div>
