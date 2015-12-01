@@ -9,7 +9,7 @@ permalink: /clients/
 
 I've been fortunate enough to work with some really rad clients like [Etsy](http://etsyl.com), [OBEY](http://obeyclothing.com), [MailChimp](mailchimp.com), [Real Thread](http://ead.com), [Hansel From Basel](http://hanselfrombasel.com), and of course my dad.
 
-I work hard to learn as much as I can about my craft. I love building with the web, and I am thankful to be a part of a community that enjoys learning and growing as much as I do. What an exciting, challenging, and furstrating industry to be in!
+I work hard to learn as much as I can about my craft. I love building with the web, and I am thankful to be a part of a community that enjoys learning and growing as much as I do. It's an exciting, challenging, and furstrating industry to be in!
 
   <a class="back" href="{{ site.baseurl }}/">&larr; Back</a>
 
