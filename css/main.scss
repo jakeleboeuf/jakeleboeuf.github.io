@@ -6,11 +6,11 @@
 
 @font-face {
     font-family:'Input-Italic';
-    src: url({{ '/assets/fonts/Input-Italic_gdi.eot' | prepend: site.baseurl }});
-    src: url({{ '/assets/fonts/Input-Italic_gdi.eot?#iefix' | prepend: site.baseurl }}) format('embedded-opentype'),
-	url({{ '/assets/fonts/Input-Italic_gdi.woff' | prepend: site.baseurl }}) format('woff'),
-	url({{ '/assets/fonts/Input-Italic_gdi.ttf' | prepend: site.baseurl }}) format('truetype'),
-	url({{ '/assets/fonts/Input-Italic_gdi.svg#Input-Italic' | prepend: site.baseurl }}) format('svg');
+    src: url({{ '/assets/fonts/Input-Italic_gdi.eot' | prepend: site.baseurl | prepend: site.url }});
+    src: url({{ '/assets/fonts/Input-Italic_gdi.eot?#iefix' | prepend: site.baseurl | prepend: site.url }}) format('embedded-opentype'),
+	url({{ '/assets/fonts/Input-Italic_gdi.woff' | prepend: site.baseurl | prepend: site.url }}) format('woff'),
+	url({{ '/assets/fonts/Input-Italic_gdi.ttf' | prepend: site.baseurl | prepend: site.url }}) format('truetype'),
+	url({{ '/assets/fonts/Input-Italic_gdi.svg#Input-Italic' | prepend: site.baseurl | prepend: site.url }}) format('svg');
     font-weight: 400;
     font-style: italic;
     font-stretch: semi-condensed;
@@ -19,11 +19,11 @@
 
 @font-face {
     font-family:'Input-Regular';
-    src: url({{ '/assets/fonts/Input-Regular_gdi.eot' | prepend: site.baseurl }});
-    src: url({{ '/assets/fonts/Input-Regular_gdi.eot?#iefix' | prepend: site.baseurl }}) format('embedded-opentype'),
-	url({{ '/assets/fonts/Input-Regular_gdi.woff' | prepend: site.baseurl }}) format('woff'),
-	url({{ '/assets/fonts/Input-Regular_gdi.ttf' | prepend: site.baseurl }}) format('truetype'),
-	url({{ '/assets/fonts/Input-Regular_gdi.svg#Input-Regular' | prepend: site.baseurl }}) format('svg');
+    src: url({{ '/assets/fonts/Input-Regular_gdi.eot' | prepend: site.baseurl | prepend: site.url }});
+    src: url({{ '/assets/fonts/Input-Regular_gdi.eot?#iefix' | prepend: site.baseurl | prepend: site.url }}) format('embedded-opentype'),
+	url({{ '/assets/fonts/Input-Regular_gdi.woff' | prepend: site.baseurl | prepend: site.url }}) format('woff'),
+	url({{ '/assets/fonts/Input-Regular_gdi.ttf' | prepend: site.baseurl | prepend: site.url }}) format('truetype'),
+	url({{ '/assets/fonts/Input-Regular_gdi.svg#Input-Regular' | prepend: site.baseurl | prepend: site.url }}) format('svg');
     font-weight: 400;
     font-style: normal;
     font-stretch: semi-condensed;
