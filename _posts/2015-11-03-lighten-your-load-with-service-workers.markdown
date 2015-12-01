@@ -16,7 +16,7 @@ Service workers are a new technology to aid developers in:
 - vastly improving performance when online
 - logically and dynamically caching files for any purpose
 
-Service workers allow us to do things on the web that have typically been reserved for native apps. They'll help us deliver a rich offline experiences, schedule reliable background syncs, even handle push notifications. Super neat things.
+Service workers allow us to do things on the web that have typically been reserved for native apps. They'll help us deliver a rich offline experience, schedule reliable background syncs, even handle push notifications. Super neat things.
 
 <br>
 
