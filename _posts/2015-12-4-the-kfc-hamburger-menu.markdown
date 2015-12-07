@@ -8,7 +8,7 @@ categories: code
 
 Yes, the chicken place. A new [KFC.com](http://kfc.com) launched a few weeks ago. And even if I didn't make it too far into the site, the nav menu icon animation caught my attention. It's simple, slick, and just snappy enough.
 
-I love how much character this little animation has.
+I love how much character this little guy has.
 
 <br>
 
