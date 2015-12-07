@@ -2,11 +2,11 @@
 layout: post
 title:  "The KFC hamburger menu"
 subtitle: "A super slick animated menu icon"
-date:   2015-11-15 8:00:00 -0500
+date:   2015-12-04 11:03:12 -0500
 categories: code 
 ---
 
-Yes, the chicken place. A new [KFC.com](http://kfc.com) launched a few weeks ago and although I didn't make it too far into the site, the nav menu icon animation caught my attention. It's simple, slick, and just snappy enough.
+Yes, the chicken place. A new [KFC.com](http://kfc.com) launched a few weeks ago. And even if I didn't make it too far into the site, the nav menu icon animation caught my attention. It's simple, slick, and just snappy enough.
 
 I love how much character this little animation has.
 
