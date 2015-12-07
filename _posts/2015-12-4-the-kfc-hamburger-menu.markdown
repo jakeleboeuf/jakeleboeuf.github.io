@@ -2,7 +2,7 @@
 layout: post
 title:  "The KFC hamburger menu"
 subtitle: "A super slick animated menu icon"
-date:   2015-12-04 11:03:12 -0500
+date:   2015-12-4 11:03:12 -0500
 categories: code 
 ---
 
