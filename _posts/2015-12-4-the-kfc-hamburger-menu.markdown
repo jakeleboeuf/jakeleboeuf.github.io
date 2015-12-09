@@ -6,7 +6,7 @@ date:   2015-12-4 11:03:12 -0500
 categories: code 
 ---
 
-Yes, the chicken place. A new [KFC.com](http://kfc.com) launched a few weeks ago. And even if I didn't make it too far into the site, the nav menu icon animation caught my attention. It's simple, slick, and just snappy enough.
+A new [KFC.com](http://kfc.com) launched a few weeks ago. The chicken place. I still haven't made it too far into the site, but the nav icon animation caught my attention. It's simple, slick, and just snappy enough.
 
 I love how much character this little guy has.
 
@@ -34,7 +34,7 @@ My goal in recreating this thing was to write as little code as possible. Becaus
 </div>
 {% endhighlight %}
 
-The HTML is straight forward. As indicated by the class name, that `js-nav_trigger` will be the selector we use to handle click events on the nav menu & nav icon. Next, we'll setup our `nav-icon` and drop in 3 bars. Typical [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) mentallity would suggest we use a single `bar` element, and simply use the pseudo elements `:before` and `:after` for the first and last bars. However, we're doing some fancy things–  each bar will need it's own pseudo elements.
+The HTML is straight forward. As indicated by the class name, that `js-nav_trigger` will be the selector we use to handle click events. Next, we'll setup our `nav-icon` and drop in 3 bars. Typical [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) mentallity would suggest we use a single `bar` element, and simply use the pseudo elements `:before` and `:after` for the first and last bars. However, we're doing some fancy things–  each bar will need it's own pseudo elements, so just trust me.
 
 <br>
 
@@ -129,7 +129,30 @@ $speed: 200ms; // Final transition time will be (speed * 2)
 }
 {% endhighlight %}
 
-Still with me? This is where all the magic happens. We'll go thru it from the top. First thing we'll do it set up a few variables so we can easily experiment with timing and easing without rewriting everything.
+Still with me? This is where all the magic happens. We'll go chop thru it, starting at the top.
+
+First thing we do is set up a few variables so we can easily experiment with timing and easing without rewriting everything. Cool. Now we want to position the nav icon container. Notice the `left` property is centering that bad boy. You'll probably want that thing fixed to the left, so keep it classy– give it `left: 10px;`.
+
+On to the bars. We first want to define the base styles for each bar element. They need to be absolutely positioned, full width and have some default transforms. You'll notice the piece that makes this animation so snappy is the transition setup. Pay close attention here. Because we want to animate things at different times, and to do this, we'll use the animation delay property wisely. Read the transition styles like:
+
+{% highlight css %}
+.bar {
+  transition: property speed easing delay;
+}
+{% endhighlight %}
+
+Those delays are all really important. When need to break the animation into 3 steps. 
+
+- Resize
+- Align
+- Rotate
+
+
+Remember, we defined `$speed: 200ms;`. So the `Resize` step should happen right away, lasting 200ms. The `Align` step should happen _after_ the `Resize` step is complete, so the delay needs to equal to the animation time of step 1: `$speed`. And finaly, we can move to the `Rotate` step. This needs to wait until both steps are complete, so the delay should be `($speed * 2)`.
+
+Kinda make sense?
+
+Because we need the ability to animate a few properties at diferent times, and maintain proportions, we'll use a `:after` pseudo element on each bar to represent the visible bar.
 
 <br>
 
@@ -153,4 +176,6 @@ Still with me? This is where all the magic happens. We'll go thru it from the to
 })();
 {% endhighlight %}
 
-Nothing to see here. We are simply attaching a few event handlers to listen for click events, and toggle the `open` class.
+Nothing to see here. We are simply attaching a few event handlers to toggle the `open` class.
+
+Okay.
