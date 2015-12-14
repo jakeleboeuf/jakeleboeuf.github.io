@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Lighten your load with Service Workers"
-date:   2015-11-15 8:00:00 -0500
+date:   2015-10-15 8:00:00 -0500
 categories: code 
 ---
 
