@@ -141,7 +141,7 @@ On to the bars. We first want to define the base styles for each bar element. Th
 }
 {% endhighlight %}
 
-Those delays are all really important. When need to break the animation into 3 steps. 
+Those delays are all really important. We need to break the animation into 3 steps. 
 
 - Resize
 - Align
