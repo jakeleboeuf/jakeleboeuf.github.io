@@ -36,5 +36,5 @@ if(bio) {
 };
 
 // Inits
-app.seekJustice(document.getElementsByTagName("p"));
+//app.seekJustice(document.getElementsByTagName("p"));
 app.seekJustice(document.getElementsByTagName("h1"));
