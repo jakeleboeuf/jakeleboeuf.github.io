@@ -3,27 +3,13 @@
 ---
 @charset "utf-8";
 
-
 @font-face {
-    font-family:'Input-Italic';
-    src: url({{ '/assets/fonts/Input-Italic_gdi.eot' | prepend: site.baseurl | prepend: site.url }});
-    src: url({{ '/assets/fonts/Input-Italic_gdi.eot?#iefix' | prepend: site.baseurl | prepend: site.url }}) format('embedded-opentype'),
-	url({{ '/assets/fonts/Input-Italic_gdi.woff' | prepend: site.baseurl | prepend: site.url }}) format('woff'),
-	url({{ '/assets/fonts/Input-Italic_gdi.ttf' | prepend: site.baseurl | prepend: site.url }}) format('truetype'),
-	url({{ '/assets/fonts/Input-Italic_gdi.svg#Input-Italic' | prepend: site.baseurl | prepend: site.url }}) format('svg');
-    font-weight: 400;
-    font-style: italic;
-    font-stretch: semi-condensed;
-    unicode-range: U+000D-E011;
-}
-
-@font-face {
-    font-family:'Input-Regular';
-    src: url({{ '/assets/fonts/Input-Regular_gdi.eot' | prepend: site.baseurl | prepend: site.url }});
-    src: url({{ '/assets/fonts/Input-Regular_gdi.eot?#iefix' | prepend: site.baseurl | prepend: site.url }}) format('embedded-opentype'),
-	url({{ '/assets/fonts/Input-Regular_gdi.woff' | prepend: site.baseurl | prepend: site.url }}) format('woff'),
-	url({{ '/assets/fonts/Input-Regular_gdi.ttf' | prepend: site.baseurl | prepend: site.url }}) format('truetype'),
-	url({{ '/assets/fonts/Input-Regular_gdi.svg#Input-Regular' | prepend: site.baseurl | prepend: site.url }}) format('svg');
+    font-family:'fugue';
+    src: url({{ '/assets/fonts/fugue_mono/fugue_mono-webfont.eot' | prepend: site.baseurl }});
+    src: url({{ '/assets/fonts/fugue_mono/fugue_mono-webfont.eot?#iefix' | prepend: site.baseurl }}) format('embedded-opentype'),
+	url({{ '/assets/fonts/fugue_mono/fugue_mono-webfont.woff' | prepend: site.baseurl }}) format('woff'),
+	url({{ '/assets/fonts/fugue_mono/fugue_mono-webfont.ttf' | prepend: site.baseurl }}) format('truetype'),
+	url({{ '/assets/fonts/fugue_mono/fugue_mono-webfont.svg#Input-Regular' | prepend: site.baseurl }}) format('svg');
     font-weight: 400;
     font-style: normal;
     font-stretch: semi-condensed;
@@ -32,7 +18,7 @@
 
 
 // Our variables
-$base-font-family: "Input-Regular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "fugue", Arial, sans-serif;
 $base-font-size:   18px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;

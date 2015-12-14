@@ -105,16 +105,22 @@ $headingColor: #000;
  * Links
  */
 a {
-  color: $brand-color;
-  text-decoration: none;
-
-  &:visited {
-    color: darken($brand-color, 15%);
+  &:link,
+  &:visited,
+  &:active {
+    display: inline-block;
+    transition: 200ms all ease;
+    color: #ffb400;
+    background: -webkit-linear-gradient(left, #ffb400, #ffb400);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
-
   &:hover {
-    color: $text-color;
-    text-decoration: underline;
+    text-decoration: none;
+    color: darken(#b4ff00, 10%);
+    background: -webkit-linear-gradient(left, #ffb400, darken(#b4ff00, 10%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 }
 
@@ -143,6 +149,7 @@ blockquote {
  */
 pre,
 code {
+  display: inline-block;
   font-size: 15px;
   border: 1px solid $grey-color-light;
   border-radius: 3px;
