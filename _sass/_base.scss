@@ -108,19 +108,12 @@ a {
   &:link,
   &:visited,
   &:active {
-    display: inline-block;
     transition: 200ms all ease;
     color: #ffb400;
-    background: -webkit-linear-gradient(left, #ffb400, #ffb400);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    text-decoration: none;
   }
   &:hover {
-    text-decoration: none;
     color: darken(#b4ff00, 10%);
-    background: -webkit-linear-gradient(left, #ffb400, darken(#b4ff00, 10%));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 }
 
