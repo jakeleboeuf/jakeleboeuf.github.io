@@ -17,6 +17,7 @@
 }
 
 a {
+  display: inline-block;
   background: -webkit-linear-gradient(left, #ffb400, #ffb400);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -194,9 +195,15 @@ a {
     width:     calc(100% - (#{$spacing-unit} / 2));
   }
   a {
+    display: inline;
     background: transparent;
     -webkit-background-clip: none;
     -webkit-text-fill-color: #ffb400;
+    &:hover {
+      background: transparent;
+      -webkit-background-clip: none;
+      -webkit-text-fill-color: #ffb400;
+    }
   }
 }
 
