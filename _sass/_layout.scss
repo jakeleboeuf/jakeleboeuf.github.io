@@ -18,11 +18,11 @@
 
 a {
   display: inline-block;
-  background: -webkit-linear-gradient(left, #ffb400, #ffb400);
+  background: -webkit-linear-gradient(left, #0138ff, #0138ff);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   &:hover {
-    background: -webkit-linear-gradient(left, #ffb400, darken(#b4ff00, 10%));
+    background: -webkit-linear-gradient(left, #0138ff, darken(#b4ff00, 10%));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -198,11 +198,11 @@ a {
     display: inline;
     background: transparent;
     -webkit-background-clip: none;
-    -webkit-text-fill-color: #ffb400;
+    -webkit-text-fill-color: #0138ff;
     &:hover {
       background: transparent;
       -webkit-background-clip: none;
-      -webkit-text-fill-color: #ffb400;
+      -webkit-text-fill-color: #0138ff;
     }
   }
 }
