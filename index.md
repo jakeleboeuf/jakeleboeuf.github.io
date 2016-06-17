@@ -7,7 +7,7 @@ permalink: /
 <div class='home bio align-center' markdown='1'>
   <div class='align-center-item' markdown='1'>
 
-You found me. I’m Jake– currently ~~working as a senior software engineer at [Fuzzco](http://fuzzco.com)~~ taking development projects. I like to think I'm a pretty nice guy. I've never been fired. Nobody has ever broken up with me. And only one person has ever tried to sue me, so that's pretty good?
+You found me. I’m Jake– currently ~~working as a senior software engineer at [Fuzzco](http://fuzzco.com) ~~ taking development projects. I like to think I'm a pretty nice guy. I've never been fired. Nobody has ever broken up with me. And only one person has ever tried to sue me, so that's pretty good?
 
 I live in Charleston, SC and spend my days with my [wife](http://culturedstyle.com), surfing small waves with my [friend](http://davidstanfieldis.me), chasing my kids, and [building the internet](http://github.com/jakeleboeuf). I might write about [things I'm learning]({{ "/blog" | prepend: site.url }}) from time to time– and if you like me, you can [follow me](http://twitter.com/jakeleboeuf).
 
