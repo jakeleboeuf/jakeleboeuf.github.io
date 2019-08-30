@@ -7,7 +7,7 @@ permalink: /
 <div class='home bio align-center' markdown='1'>
   <div class='align-center-item' markdown='1'>
 
-You found me. I’m Jake– currently making internets at [Give Crypto](https://givecrypto.org) and leading the front end efforts as a Senior Engineering.
+You found me. I’m Jake– currently making internets at [Give Crypto](https://givecrypto.org)- leading the front end efforts as  a Senior Software Engineer as we figure out if crypto can help people.
 
 I like to think I'm a pretty nice guy. I've never been fired. Nobody has ever broken up with me. And only one person has ever tried to sue me, so that's pretty good?
 
